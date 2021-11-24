@@ -1,0 +1,58 @@
+body {
+    display: flex;
+}
+
+.container-flex-kiri,
+.container-flex-kanan {
+    display: flex;
+}
+
+.container-flex-kiri {
+    flex-grow: 1;
+}
+
+.container-flex-kanan {
+    flex-grow: 6;
+    flex-direction: column;
+    background-color: pink;
+}
+
+nav,
+header,
+article,
+aside,
+footer {
+    border: 3px solid blue;
+}
+
+nav {
+    flex-grow: 1;
+    height: 100vh;
+    background-color: pink;
+}
+
+header {
+    height: 70px;
+    background-color: burlywood;
+    flex-grow: 1;
+}
+
+article {
+    flex-grow: 3;
+    background-color: cornsilk;
+}
+
+aside {
+    flex-grow: 1;
+    background-color: aquamarine;
+}
+
+footer {
+    flex-grow: 1;
+    background-color:burlywood;
+}
+
+.wrapper-article-aside {
+    display: flex;
+    flex-grow: 4;
+}
